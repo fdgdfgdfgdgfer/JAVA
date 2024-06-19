@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6e2c4f3-85ef-4d03-a8bb-62b84727cd47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3916f90b-a7d8-446a-bd66-a1be99584597.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3916f90b-a7d8-446a-bd66-a1be99584597/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3916f90b-a7d8-446a-bd66-a1be99584597/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3916f90b-a7d8-446a-bd66-a1be99584597/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3916f90b-a7d8-446a-bd66-a1be99584597/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JFrame/CoordinateEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JFrame/FootEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JFrame/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JFrame/MapEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JFrame/SnakeEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JFrame/SnakeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Plan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SDAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/CallableTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/CompletableFutureTestCombine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/CompletableFutureTestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/CompletableFutureTestThenApplyAndCompose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/CompletableFutureThenAccept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/FutrueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/aqs/CountDownLatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/case_heat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/date_safa/DateFrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/futrue_task/CallableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/futrue_task/ExecuterTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/futrue_task/ExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/futrue_task/FutureTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/TestThreadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/ThreadBlocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/ThreadTimedWaiting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/ThreadWaiting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/sad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/timer/TimerTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/wait_notify/CaseWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/wait_notify/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handle/big_file_handle/AdapterHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handle/big_file_handle/BigFileHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handle/big_file_handle/CreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handle/big_file_handle/HandFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handle/big_file_handle/Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data_handle/big_file_handle/HandleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/All.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/CommonModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/DeviceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/DeviceFactoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/EventAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/EventMethodName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/MQAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/NB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/NBimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/NbEventAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/NbImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/SADAi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/XiRaKa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/ZGim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/ZIGB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/Zigbee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/ZigbeeEventAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/ZigbeeImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/asfa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/Adapter/sdasSAD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/AmountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/BaseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/DLDecorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/DLImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/Decorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/IDdecorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/WindowDecorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/decorator/BaseDecoratorByPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/decorator/RedDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/decorator/TicketDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/Bring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/CommonAc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/CommonShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/FaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/Guild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/Lyq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/Mouth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/SzImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/model/MmImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/model/PayModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/model/PayWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/pay/WxPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/bridging/pay/ZfbPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/BuilderModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/DecorationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/Matter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/MatterAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/ceiling/LevelOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/ceiling/LevelTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/coating/FLSCoating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/coating/LBcosting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/floor/SXFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/builderModel/floor/ShiMuFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/AuditChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/Commit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/IntermediateAudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/PrimaryAudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/UltimateAudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_service/AuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_service/AuditServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/model/ChainUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/ReqContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/RewardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/RewardInterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/RewardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/Thing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/factory/Vouchar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/CacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/ClassLoaderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/EIR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/EIRUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/FactoryCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/IRR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/IRRUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/JDKInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/JDKProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/RedisLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/interfaceFactory/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/dto/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSessionFactoryBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/model/XNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/operate/MybaitsOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/operate/MybatiosSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/resour/Resours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate/CarRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate/impl/BigBenZBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate/impl/Tank300Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate/impl/WranglerBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate_list/AcrossCountryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate_list/BenZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate_list/Tank300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/operate_list/Wrangler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/order/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/PipingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/Build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/BuildService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/ContextFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/Cover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/CoverHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/CoverInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/CoverMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/cover/ReqContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/BuildingPiping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/NoticeProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/OrderProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/PipingBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/PipingNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/ProcessAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/ProcessModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/ProcessPipingStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/piping/order/StockProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/proxy/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/proxy/Techar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/proxy/TecharProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/single/HungrySingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/single/Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/single/LazySingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/single/LazySingleSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/single/StaticInnerSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/test/AS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/test/Bito-Jetbrains-PROD-1.2.7.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPattern/test/sdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/genericity/GenercityInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/genericity/GenericityClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/genericity/GenericityInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/Reflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/copy/DeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/copy/DeepModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/copy/Prent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/copy/SerializeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/copy/SerializePrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/copy/SerializeWayDoCope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/NetworkWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/ReceiveFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/SendFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/SendOpt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/UDPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/network/UserDatagramProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/serializable/SerializableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/serializable/SerializableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/serializable/StudentA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java_base/serializable/TestSer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/AddStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/BackContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/CopyLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/DetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/DoubleSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/FirstUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/GenerateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/GetIntersectionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Greedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/IsIsomorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MaxArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MedianFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MergeLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MiddleNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MoveWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Mun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/PivotIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/ReverseLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Rotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/SeparateLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/SpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/StackSymbolProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/ValidateStackSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/onePercentege/ChildSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/onePercentege/MoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/onePercentege/NoRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/onePercentege/NoShowTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quesition/onePercentege/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/redission/DistributedRedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/redission/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/redission/RedissonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/Brigh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/CardBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/CardBaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/DDZZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/DdzImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/DdzUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/Fdz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/NotOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/One.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/OrderShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/OutModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/TestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testModel/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/HttpClientPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/JsonParseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeviceFactoryImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/designPattern/chain/ChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/designPattern/mediator/factory/SqlSessionFactoryBuildTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/designPattern/order/order/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/CoordinateEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/FootEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MainWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MainWindow$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MainWindow$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MainWindow$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MainWindow$Paint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MainWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/MapEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/SnakeEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/JFrame/SnakeMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Plan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/SDAS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CallableTry$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CallableTry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestCombine$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestCombine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestException$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestException$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestThenApplyAndCompose$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureTestThenApplyAndCompose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureThenAccept$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/CompletableFutureThenAccept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/FutrueTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/Game$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/LockTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/LockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/Person$Live.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/Person$Mic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/Person$Vidio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/VolatileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/aqs/CountDownLatchExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/date_safa/DateFrom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/futrue_task/CallableService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/futrue_task/ExecuterTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/futrue_task/ExecutorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/futrue_task/FutureTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/thread_state/TestThreadStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/thread_state/ThreadBlocked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/thread_state/ThreadTimedWaiting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/thread_state/ThreadWaiting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/thread_state/sad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/timer/TimerTaskTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/timer/TimerTaskTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/timer/TimerTaskTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/Bus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/CaseWait$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/CaseWait.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/WaitNotify$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/WaitNotify$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/WaitNotify$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/concurrent/wait_notify/WaitNotify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/All.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/CommonModel$CommonModelBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/CommonModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/DeviceAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/DeviceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/DeviceFactoryImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/EventAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/EventMethodName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/MQAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/NB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/NBimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/NbEventAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/NbImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/SADAi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/XiRaKa$XiRaKaBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/XiRaKa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/ZGim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/ZIGB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/Zigbee$ZigbeeBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/Zigbee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/ZigbeeEventAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/ZigbeeImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/asfa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/Adapter/sdasSAD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/Amount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/AmountImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/BaseDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/DLDecorate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/DLImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/Decorate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/IDdecorate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/WindowDecorate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/productdeml/Order$OrderBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/productdeml/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/productdeml/Promotion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/productdeml/decorator/BaseDecoratorByPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/productdeml/decorator/RedDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/assemble/productdeml/decorator/TicketDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/FaceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/SzImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/model/MmImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/model/PayModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/model/PayWay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/pay/WxPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/bridging/pay/ZfbPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/BuilderModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/DecorationType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/Matter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/MatterAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/ceiling/LevelOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/ceiling/LevelTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/coating/FLSCoating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/coating/LBcosting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/floor/SXFloor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/builderModel/floor/ShiMuFloor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/AuditChain$Chain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/AuditChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/audit_opt/Commit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/audit_opt/IntermediateAudit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/audit_opt/PrimaryAudit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/audit_opt/UltimateAudit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/audit_service/AuditService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/audit_service/AuditServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/model/ChainUser$ChainUserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/chain/model/ChainUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/ReqContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/RewardFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/RewardInterFace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/RewardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/Thing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/factory/Vouchar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/CacheAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/ClassLoaderUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/EIR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/EIRUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/FactoryCache$FactoryCacheBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/FactoryCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/IRR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/IRRUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/JDKInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/JDKProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/RedisLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/interfaceFactory/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/configuration/Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/dto/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/factory/SqlSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/factory/SqlSessionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/factory/SqlSessionFactoryBuild.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/model/XNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/operate/MybaitsOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/operate/MybatiosSqlSessionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/mediator/resour/Resours.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate/CarRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate/impl/BigBenZBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate/impl/Tank300Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate/impl/WranglerBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate_list/AcrossCountryType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate_list/BenZ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate_list/Tank300.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/operate_list/Wrangler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/order/order/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/PipingMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/Build.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/BuildService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/ContextFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/Cover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/CoverHand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/CoverInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/CoverMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/cover/ReqContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/BuildingPiping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/NoticeProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/OrderProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/PipingBuild.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/PipingNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/ProcessAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/ProcessModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/ProcessPipingStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/piping/order/StockProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/proxy/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/proxy/Techar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/proxy/TecharProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/HungrySingle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/Lazy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/LazySingle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/LazySingleSafe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/StaticInnerSingle$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/StaticInnerSingle$Intence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/single/StaticInnerSingle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/test/AS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/designPattern/test/sdas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/genericity/GenercityInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/genericity/GenericityClass$GenericityClassBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/genericity/GenericityClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/genericity/GenericityInterfaceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/Reflect$ReflectBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/Reflect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/copy/DeepCopy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/copy/DeepModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/copy/Prent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/copy/SerializeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/copy/SerializePrent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/copy/SerializeWayDoCope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/network/NetworkWay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/network/ReceiveFace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/network/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/network/SendOpt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/network/UDPTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/network/UserDatagramProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/serializable/SerializableModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/serializable/SerializableObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/serializable/StudentA$StudentABuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/serializable/StudentA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/serializable/TestSer$TestSerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/java_base/serializable/TestSer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/AddStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/BackContext$BackContextBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/BackContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Convert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/CopyLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/DeleteNode$DeleteNodeBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/DeleteNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/DetectCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/DoubleSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/FirstBadVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/FirstUniqChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/GenerateMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/GetIntersectionNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Greedy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/IsIsomorphic$IsIsomorphicBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/IsIsomorphic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/IsSubsequence$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/IsSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/LengthOfLongestSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MaxArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MedianFinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MergeLinked$MergeLinkedBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MergeLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MiddleNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MoveWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Mun$MunBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Mun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/MyQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/PivotIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/ReverseLinked$ReverseLinkedBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/ReverseLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/ReverseWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Rotate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/SeparateLinked$SeparateLinkedBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/SeparateLinked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/SpiralOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/StackSymbolProblem$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/StackSymbolProblem$StackSymbolProblemBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/StackSymbolProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/TwoSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/ValidateStackSequences.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/onePercentege/ChildSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/onePercentege/MoveZero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/onePercentege/NoRepeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/onePercentege/NoShowTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/onePercentege/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/quesition/onePercentege/TwoSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/redission/DistributedRedisLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/redission/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/redission/RedissonManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Brigh.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/CardBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/CardBaseImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/DDZZ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/DdzImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/DdzUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Fdz$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Fdz$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Fdz$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Fdz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/NotOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/One.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/OrderShow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/OutModel$OutModelBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/OutModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/testModel/Text.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/utils/HttpClientPoolUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/utils/HttpClientPoolUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/utils/HttpClientUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/utils/HttpClientUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/utils/JsonParseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/DeviceFactoryImpTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/designPattern/chain/ChainTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/designPattern/mediator/factory/SqlSessionFactoryBuildTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/designPattern/order/order/OrderTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
+        <option value="mapper" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\program\git\Git\mingw64\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../IDEA IntelliJ IDEA 2022.2 (Ultimate Edition)/jihuo-tool/vmoptions/idea.vmoptions" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../download/apache-maven-3.9.0" />
+        <option name="localRepository" value="F:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="F:\download\apache-maven-3.9.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2bNhGvhCvZLRUKJQ0rd1oNV6Iim" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/myproject/JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "c71e8d17d41c21de0d260881d69662ff",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "java.sql.Driver",
+      "hive"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myproject\JAVA\src\main\java\org\example\designPattern\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.designPattern.mediator.factory" />
+      <recent name="org.example.designPattern.order.order" />
+      <recent name="org.example.designPattern.chain" />
+      <recent name="org.example" />
+      <recent name="org.example.designPattern.Adapter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.data_handle" />
+      <recent name="org.example.designPattern.factory.message_cover" />
+      <recent name="org.example.designPattern.mediator.model" />
+      <recent name="" />
+      <recent name="org.example.designPattern.interfaceFactory" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.BigFileHandle">
+    <configuration name="BigFileHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.data_handle.big_file_handle.BigFileHandle" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.data_handle.big_file_handle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.data_handle.big_file_handle.CreateFile" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.data_handle.big_file_handle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.data_handle.big_file_handle.HandFile" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.data_handle.big_file_handle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoShowTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.quesition.onePercentege.NoShowTwo" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.quesition.onePercentege.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BigFileHandle" />
+      <item itemvalue="Application.CreateFile" />
+      <item itemvalue="Application.HandFile" />
+      <item itemvalue="Application.Map" />
+      <item itemvalue="Application.NoShowTwo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BigFileHandle" />
+        <item itemvalue="Application.HandFile" />
+        <item itemvalue="Application.CreateFile" />
+        <item itemvalue="Application.Map" />
+        <item itemvalue="Application.NoShowTwo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.16677.21" />
+        <option value="bundled-js-predefined-d6986cc7102b-19b454f630c8-JavaScript-IU-242.16677.21" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6e2c4f3-85ef-4d03-a8bb-62b84727cd47" name="Changes" comment="" />
+      <created>1706061353316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706061353316</updated>
+      <workItem from="1706061354508" duration="2827000" />
+      <workItem from="1706148772614" duration="40022000" />
+      <workItem from="1706489346868" duration="25290000" />
+      <workItem from="1706576655217" duration="4565000" />
+      <workItem from="1706598048965" duration="9184000" />
+      <workItem from="1706665155871" duration="49687000" />
+      <workItem from="1706836585534" duration="33466000" />
+      <workItem from="1708217144209" duration="7464000" />
+      <workItem from="1708304831079" duration="25577000" />
+      <workItem from="1708652786764" duration="23018000" />
+      <workItem from="1709110118328" duration="2796000" />
+      <workItem from="1709168396450" duration="627000" />
+      <workItem from="1709197458260" duration="667000" />
+      <workItem from="1709198143645" duration="36000" />
+      <workItem from="1709198193301" duration="1448000" />
+      <workItem from="1709275033674" duration="1427000" />
+      <workItem from="1709458720339" duration="8689000" />
+      <workItem from="1709600413542" duration="41327000" />
+      <workItem from="1709876284770" duration="5500000" />
+      <workItem from="1710205688219" duration="43239000" />
+      <workItem from="1710494225469" duration="43000" />
+      <workItem from="1710502341046" duration="47934000" />
+      <workItem from="1710850509601" duration="51985000" />
+      <workItem from="1711078229087" duration="854000" />
+      <workItem from="1711327661094" duration="22350000" />
+      <workItem from="1711529446977" duration="64000" />
+      <workItem from="1711612452942" duration="5671000" />
+      <workItem from="1711966966403" duration="1215000" />
+      <workItem from="1712474246938" duration="99000" />
+      <workItem from="1712631248341" duration="790000" />
+      <workItem from="1714007246488" duration="11627000" />
+      <workItem from="1714109842707" duration="2530000" />
+      <workItem from="1714282981978" duration="1665000" />
+      <workItem from="1714284729098" duration="8943000" />
+      <workItem from="1714352393065" duration="8799000" />
+      <workItem from="1714370442919" duration="5497000" />
+      <workItem from="1714441020675" duration="16561000" />
+      <workItem from="1715043540268" duration="16852000" />
+      <workItem from="1715132852566" duration="70000" />
+      <workItem from="1715159979174" duration="5062000" />
+      <workItem from="1715246942272" duration="113000" />
+      <workItem from="1715247068574" duration="136000" />
+      <workItem from="1715247216087" duration="30000" />
+      <workItem from="1715247254978" duration="2749000" />
+      <workItem from="1715584885764" duration="2598000" />
+      <workItem from="1715820873661" duration="7697000" />
+      <workItem from="1715846318040" duration="1285000" />
+      <workItem from="1716363431339" duration="12042000" />
+      <workItem from="1716801410198" duration="1720000" />
+      <workItem from="1716857386895" duration="60842000" />
+      <workItem from="1717117919097" duration="11944000" />
+      <workItem from="1717558511239" duration="697000" />
+      <workItem from="1717724825645" duration="10570000" />
+      <workItem from="1717746030963" duration="5891000" />
+      <workItem from="1718240270876" duration="31531000" />
+      <workItem from="1718605553878" duration="26990000" />
+      <workItem from="1718697941436" duration="267000" />
+      <workItem from="1718703681653" duration="3255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/ReverseLinked.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/FirstUniqChar.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/IsSubsequence.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/IsSubsequence.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/MiddleNode.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/DetectCycle.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/ReverseWords.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/MoveWindow.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/utils/JsonParseUtil.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/utils/JsonParseUtil.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/Convert.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/Convert.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/decorator/RedDecorator.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/assemble/productdeml/decorator/TicketDecorator.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/SpiralOrder.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/AuditChain.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/designPattern/chain/ChainTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/designPattern/chain/ChainTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/IntermediateAudit.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/Commit.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/UltimateAudit.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/chain/audit_opt/PrimaryAudit.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/GenerateMatrix.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/BinarySearch.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSessionFactoryBuild.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSessionFactoryBuild.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSessionFactoryBuild.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSession.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSession.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSession.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPattern/mediator/factory/SqlSession.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/designPattern/mediator/factory/SqlSessionFactoryBuildTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/PivotIndex.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/redission/RedissonManager.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/redission/RedissonManager.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/java_base/serializable/SerializableObject.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/java_base/network/Send.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/testModel/TestOne.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SDAS.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SDAS.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/java_base/Test.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/java_base/Test.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/sad.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/sad.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/concurrent/thread_state/sad.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/Order.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quesition/onePercentege/NoShowTwo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/concurrent/wait_notify/CaseWait.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_291/src.zip!/java/util/Scanner.java</url>
+          <line>2152</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/concurrent/Game.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/testModel/Fdz.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/testModel/CardBaseImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/testModel/DdzImpl.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.example.quesition.Node" memberName="next" />
+        <PinnedItemInfo parentTag="org.example.quesition.ListNode" memberName="val" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+        <PinnedItemInfo parentTag="org.example.quesition.ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="org.example.quesition.Node" memberName="random" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JAVA$Main.ic" NAME="Main Coverage Results" MODIFIED="1708321900085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JAVA$Fdz.ic" NAME="Fdz Coverage Results" MODIFIED="1716860430257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.testModel.*</FILTER>
+    </SUITE>
+  </component>
+</project>
