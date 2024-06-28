@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @Author jfz
  * @Date 2024/5/22 15:37
@@ -13,28 +15,36 @@ import lombok.NoArgsConstructor;
  */
 
 public class Person {
-    public static void main(String[] args) {
-        Mic mic = new Mic();
-        //听音乐
-        Thread thread = new Thread(mic);
-        //看视频
-        new Thread(new Vidio());
-        //看直播
-        new Thread(new Live());
-    }
-    static class Mic implements Runnable {
-        @Override
-        public void run() {
 
-            System.out.println("我在听音乐...");
+    private static volatile Boolean loop = true;
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            new Thread(() -> {
+                Vidio();
+            }).start();
+        }
+
+    }
+
+
+    private static ReentrantLock look = new ReentrantLock();
+
+    static void Vidio() {
+        try {
+            look.lock();
+            if (loop) {
+                System.out.println(Thread.currentThread().getName() + "执行业务...");
+                loop = false;
+            }
+            look.unlock();
+        } catch (Exception e) {
+
+        }finally {
+            look.unlock();
         }
     }
-    static class Vidio implements Runnable {
-        @Override
-        public void run() {
-            System.out.println("我在看视频...");
-        }
-    }
+
     static class Live implements Runnable {
         @Override
         public void run() {

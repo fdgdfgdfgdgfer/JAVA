@@ -1,16 +1,12 @@
 package org.example.data_handle.big_file_handle;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
+import org.springframework.util.StringUtils;
 import java.io.*;
-import java.sql.Time;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
+
 
 /**
  * @Author jfz
@@ -102,13 +98,14 @@ public class HandFile extends HandleModel {
             int nums = 0;
             //队列都为空结束
             AtomicInteger queue = new AtomicInteger(0);
-            for (int i = 0; i < threadNumber; i++) {
-                if (task.size() == 0) {
+            for (LinkedBlockingQueue data : task) {
+                if (data.size() == 0) {
                     queue.getAndIncrement();
                 }
             }
+            System.out.println("监控队列" + "监控状态：" + sendStatus + ",队列大小" + queue.get());
             AtomicInteger temps = new AtomicInteger(0);
-            if (sendStatus && queue.get() == threadNumber) {
+            if (!sendStatus && queue.get() == threadNumber) {
                 vig = false;
                 count.forEach((k, v) -> {
                     if (v.get() > temps.get()) {
@@ -118,7 +115,6 @@ public class HandFile extends HandleModel {
                 });
                 System.out.println(AGE + "岁-" + temps.get() + "次");
                 System.out.println("统计完成");
-                System.exit(-1);
                 break;
             }
         }
@@ -126,7 +122,7 @@ public class HandFile extends HandleModel {
     }
 
     private final static AtomicInteger loop = new AtomicInteger(0);
-    private final static Integer threadNumber = 5;
+    private final static Integer threadNumber = 4;
 
     private static volatile Boolean sendStatus = true;
 
@@ -134,17 +130,30 @@ public class HandFile extends HandleModel {
         BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(new FileInputStream("F:\\test.bat")));
         String line = "";
-        int op =0;
+        long start = System.currentTimeMillis();
+        int op = 0;
         while ((line = bufferedReader.readLine()) != null) {
+
             //轮询的向队列里加数据
-            int index = loop.get() % threadNumber;
+            long index = loop.get() % threadNumber;
             System.out.println(Thread.currentThread().getName() + "投放数据入列" + index);
-            task.get(index).put(line);
-            loop.getAndIncrement();
-            if (op % 400 == 0) {
+//            splitLine(line);
+                // 如果满了就阻塞
+                task.get((int) index).put(line);
+                loop.getAndIncrement();
+
+//            if (op % 100 == 0) {
+//
+//                System.gc();
+//
+//                log.error("执行出错:", e);
+//            }
+            if (op % 100 == 0) {
+                System.out.println("读取100行,总耗时间: " + (System.currentTimeMillis() - start) / 1000 + " s");
                 try {
-                    Thread.sleep(1000L);
                     System.gc();
+                    Thread.sleep(1000L);
+
                 } catch (InterruptedException e) {
                 }
             }
@@ -152,6 +161,25 @@ public class HandFile extends HandleModel {
         }
         bufferedReader.close();
         sendStatus = false;
+        System.out.println("...............................生产完毕...................................");
+    }
+
+    public  void splitLine(String lineData) {
+//            System.out.println(lineData.length());
+        String[] arr = lineData.split("\n");
+        for (String str : arr) {
+            if (StringUtils.isEmpty(str)) {
+                continue;
+            }
+            long index = loop.get() % threadNumber;
+            try {
+                // 如果满了就阻塞
+                task.get((int) index).put(str);
+            } catch (InterruptedException e) {
+            }
+            loop.getAndIncrement();
+
+        }
     }
 
     private final static ThreadPoolExecutor THREAD_POOL_EXECUTOR = new ThreadPoolExecutor(
@@ -192,7 +220,7 @@ public class HandFile extends HandleModel {
     }
 
     public void initQueue() {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < threadNumber; i++) {
             task.add(new LinkedBlockingQueue<>(366));
         }
     }

@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.RandomUtils;
 import org.springframework.util.ObjectUtils;
 
 import java.io.*;
@@ -50,7 +51,7 @@ public class CreateFile extends HandleModel {
         }
         //以1000000万数据一行
         for (long i = 1; i < MAX_LINE; i++) {
-            String age = getaAge(AGE_MAX, AGE_MIN) + ",";
+            String age = getaAge(AGE_MAX, AGE_MIN) + ","+randomIP()+","+randomIP();
             if (ObjectUtils.isEmpty(bufferedWriter)) {
                 return;
             }
@@ -62,7 +63,12 @@ public class CreateFile extends HandleModel {
         System.out.println("写入完成!!! 共耗时" + (System.currentTimeMillis() - begin) / 1000 + "s");
         bufferedWriter.close();
     }
-
+    /*
+       创建随机ip
+       */
+    private String randomIP() {
+        return String.valueOf(RandomUtils.nextInt(100, 200));
+    }
     @Override
     public void model() {
         BufferedReader bufferedReader = null;
